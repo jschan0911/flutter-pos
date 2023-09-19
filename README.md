@@ -1,16 +1,16 @@
-# eunhyun_kiosk
+# Eunhyun-POS
+플리마켓을 준비하며 POS 기계의 기능을 Flutter로 구현한 프로젝트입니다.
 
-A new Flutter project.
+Firebase를 이용하여 배포한 웹 페이지의 링크는 [다음](https://eunhyun-pos.web.app)과 같습니다.
 
-## Getting Started
+## 개발 상황
+>23.09.19. 20:52
+- 디스플레이의 넓이에 따라 모바일과 테블릿에서 구현되는 모습이 달라지도록 반응형으로 구현했습니다.
+- 현재는 모바일에서의 화면만 구현한 상황입니다.
 
-This project is a starting point for a Flutter application.
+  ## 사용 방법
+<img width="636" alt="image" src="https://github.com/jschan0911/flutter-pos/assets/96401830/82e49052-a951-41b4-9b39-9a15d1c5d82c">
 
-A few resources to get you started if this is your first Flutter project:
+숫자가 적힌 버튼을 누르면 버튼에 해당하는 숫자 만큼 '현재 가격'이 증가합니다. 'DEL'버튼을 누르면 '현재 가격'이 0으로 초기화됩니다.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+'계산하기' 버튼을 누르면 '현재 가격'에 해당하는 정보와 함께 결제 화면으로 이동합니다. 결제를 위해 필요한 결제 가격, QR코드, 계좌번호 정보를 띄웁니다.
