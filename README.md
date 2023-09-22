@@ -1,16 +1,13 @@
-# eunhyun_kiosk
+# Eunhyun-POS
+플리마켓을 준비하며 POS 기계의 기능을 Flutter로 구현한 프로젝트입니다.
 
-A new Flutter project.
+Firebase를 이용하여 배포한 웹 페이지의 링크는 [다음](https://eunhyun-pos.web.app)과 같습니다.
 
-## Getting Started
+## 개발 상황
+>23.09.19. 20:52
+- 디스플레이의 넓이에 따라 모바일과 테블릿에서 구현되는 모습이 달라지도록 반응형으로 구현했습니다.
+- 현재는 모바일에서의 화면만 구현한 상황입니다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+>(ver-flea-market)23.09.19. 20:52
+- 내일 플리마켓이 진행되는데 나머지 화면은 미완성인 관계로 모든 디바이스에서 모바일 화면이 보이도록 수정했습니다.
+- 페이지에서 정의되는 아이콘 및 title을 수정했습니다.
