@@ -57,7 +57,7 @@ class _MobileBodyState extends State<MobileBody> {
             width: MediaQuery
                 .of(context)
                 .size
-                .width * 6 / 10,
+                .width,
           ),
           Text(
             '국민 01027116505',
@@ -76,7 +76,6 @@ class _MobileBodyState extends State<MobileBody> {
     //Navigator.pushNamed(context, '/second');
     return InkWell(
         onTap: () {
-          // Navigator.push(context, MaterialPageRoute(builder: (context) => PaymentPage(widget.totalPrice)));
           Navigator.pop(context);
         },
         child: Container(

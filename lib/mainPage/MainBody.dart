@@ -19,14 +19,16 @@ class _HomeBodyState extends State<HomeBody> {
         ResponsiveBuilder(
             builder: (context, sizingInformation) {
               if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
-                return TabletBody();
+                // return TabletBody();
+                return MobileBody();
               }
 
               if (sizingInformation.deviceScreenType == DeviceScreenType.mobile) {
                 return MobileBody();
               }
 
-              return TabletBody();
+              // return TabletBody();
+              return MobileBody();
             }
         ),
       ]

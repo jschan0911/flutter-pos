@@ -19,14 +19,16 @@ class _PaymentBodyState extends State<PaymentBody> {
         ResponsiveBuilder(
           builder: (context, sizingInformation) {
             if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
-              return TabletBody();
+              // return TabletBody();
+              return MobileBody(widget.price);
             }
 
             if (sizingInformation.deviceScreenType == DeviceScreenType.mobile) {
               return MobileBody(widget.price);
             }
 
-            return TabletBody();
+            // return TabletBody();
+            return MobileBody(widget.price);
           }
         ),
       ]
